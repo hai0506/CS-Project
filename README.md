@@ -1,8 +1,7 @@
 # Project report
 
-```
-Hoang Hai – M
-```
+Run json-simple-1.1.jar to run the app.
+
 ## Project overview
 
 This application, named HAI (Hai’s Atmospheric Indicator) displays real-time environmental data,
