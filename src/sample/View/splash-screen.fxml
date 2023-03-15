@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Control.Splash">
+   <children>
+      <ImageView fitHeight="243.0" fitWidth="287.0" layoutX="29.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@app-icon.jpg" />
+         </image>
+      </ImageView>
+      <ProgressBar layoutX="151.0" layoutY="307.0" prefHeight="27.0" prefWidth="300.0" progress="0.0" />
+      <Label layoutX="356.0" layoutY="136.0" text="Hai's">
+         <font>
+            <Font name="Segoe UI Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="356.0" layoutY="179.0" text="Atmospheric">
+         <font>
+            <Font name="Segoe UI Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="356.0" layoutY="222.0" text="Indicator">
+         <font>
+            <Font name="Segoe UI Bold" size="36.0" />
+         </font>
+      </Label>
+      <HBox alignment="TOP_CENTER" layoutY="340.0" prefHeight="55.0" prefWidth="601.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <Label wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
